@@ -1,0 +1,398 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header .row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 56px;
+    background: rgb(33, 33, 33);
+    color: #fff;
+    padding: 30px 20px;
+    border-bottom: 1px solid #413f3f;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+.row .menu {
+    font-size: 30px;
+    border-radius: 50%;
+    padding: 10px;
+    padding-right: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    padding: 10px;
+    color: #f00;
+}
+
+.logo span {
+    color: #fff;
+    font-size: 25px;
+    padding-left: 3px;
+}
+
+.search {
+    width: 426px;
+    height: 40px;
+    display: flex;
+    margin-left: 400px;
+}
+
+.search .search-int {
+    width: 362px;
+    height: 40px;
+    border: none;
+    border-radius: 2px 0px 0px 2px;
+    background: rgb(18, 18, 18);
+    padding: 0 10px;
+    color: #fff;
+}
+
+.search .search-btn {
+    width: 64px;
+    height: 40px;
+    border: none;
+    background: rgb(48, 48, 48);
+    color: #fff;
+    font-size: 25px;
+}
+
+.search .search-btn:hover {
+    background: rgb(102, 101, 101);
+    cursor: pointer;
+}
+
+.voice-btn {
+    width: 40px;
+    height: 40px;
+    margin-left: 8px;
+    border-radius: 40px;
+    background: rgb(0, 0, 0);
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    padding: 10px;
+}
+
+.voice-btn:hover {
+    background: rgb(48, 48, 48);
+    cursor: pointer;
+}
+
+.studio {
+    width: 204px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-left: 575px;
+}
+
+.studio .studio-block {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 50%;
+}
+
+.studio .studio-block:hover {
+    background: rgb(48, 48, 48);
+    cursor: pointer;
+}
+
+.studio .profil {
+    width: 60px;
+    height: 40px;
+    padding: 4px 14px;
+}
+
+.studio .profil img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+main {
+    width: 100%;
+    height: 1210px;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    display: flex;
+}
+
+main nav {
+    width: 240px;
+    height: 1210px;
+    background-color: rgb(33, 33, 33);
+    border-right: 1px solid #413f3f;
+}
+
+main nav .block {
+    border-bottom: 1px solid #413f3f;
+}
+
+main nav .block h2 {
+    font-size: 12px;
+    padding: 15px 50px 0 20px;
+    color: #757474;
+    font-weight: 700;
+    padding-bottom: 17px;
+}
+
+main nav .block .nav-block {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 224px;
+    height: 40px;
+    padding: 8px 8px 8px 24px;
+    font-weight: 600;
+}
+
+main nav .block .nav-block:hover {
+    border-radius: 5px;
+    background: rgb(48, 48, 48);
+    cursor: pointer;
+}
+
+nav .block .nav-block .nav-block {
+    width: 18px;
+    height: 18px;
+    font-size: 18px;
+    padding: 4px 0px 4px 0px;
+    background: rgb(255, 255, 255);
+}
+
+nav .block .nav-block .block-title {
+    padding: 4px 0px 4px 0px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+aside {
+    width: 100%;
+    height: 1200px;
+    color: #fff;
+}
+
+.border {
+    width: 100%;
+    height: 250px;
+}
+
+.border img {
+    width: 100%;
+    height: 250px;
+
+}
+
+.profile {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    padding: 16px 65px 0 65px;
+    align-items: center;
+    background-color: #212121;
+}
+
+.profile-info {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.profile-info img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    padding: 5px;
+    margin-right: 15px;
+}
+
+.profile-info h1 {
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.profile-info p {
+    color: rgb(170, 170, 170);
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.btn {
+    width: 116px;
+    height: 36px;
+    border-radius: 2px;
+    background: rgb(204, 0, 0);
+    color: #fff;
+    border: none;
+}
+
+.profile-link {
+    width: 100%;
+    height: 48px;
+    padding: 0 65px;
+    background-color: #212121;
+    display: flex;
+    align-items: center;
+}
+
+.profile-link ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.profile-link ul li a {
+    width: 40px;
+    height: 16px;
+    padding: 16px 32px 15px 32px;
+}
+
+.profile-link ul li a:hover {
+    border-bottom: 1px solid #fff;
+}
+
+.profile-link .other-link {
+    width: 322px;
+    height: 33px;
+    display: flex;
+    gap: 500px;
+    font-size: 24px;
+}
+
+.card2 {
+    width: 100%;
+    height: 286px;
+    padding: 24px 287px 24px 65px;
+    display: flex;
+}
+
+.card2 .video {
+    width: 424px;
+    height: 238px;
+    margin: 10px 24px 24px 0;
+}
+
+.mvideo-info {
+    width: 400px;
+    height: 238px;
+    padding: 0px 0px 88px 0px;
+}
+
+.mvideo-info h2 {
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    padding: 0px 0px 20px 0px;
+    margin: 10px 0;
+}
+
+.mvideo-info p {
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 18px;
+}
+
+.play {
+    width: 1500px;
+    height: 44px;
+    border-top: 1px solid rgb(48, 48, 48);
+    text-align: center;
+    margin: 20px 65px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 8px 0px 0px 0px;
+}
+
+.play p .a{
+    color: #888686;
+    font-weight: 700;
+}
+
+.contents {
+    width: 95%;
+    height: 350px;
+    display: flex;
+    padding: 40px 0;
+    gap: 30px;
+    margin: 0 65px;
+}
+
+.video-content {
+    width: 25%;
+    height: 400px;
+}
+
+.video-content .thumbnail {
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.video-content .content-info {
+    width: 276px;
+    height: 148px;
+    display: flex;
+    padding: 5px;
+}
+
+.video-content .content-info .video-owner {
+    width: 48px;
+    height: 74px;
+    padding-right: 10px;
+}
+
+.content-info .video-owner img {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+
+.video-content .content-info .title {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-info .title h2 {
+    color: #fff;
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.content-info .title p {
+    color: rgb(170, 170, 170);
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: 400;
+    padding-top: 5px;
+}
